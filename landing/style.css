@@ -225,7 +225,8 @@ body {
   padding: 0.4375rem 0;
   z-index: 2;
 }
-.header__logo {
+
+.logo {
   width: 9.6875rem;
   height: 3.0625rem;
 }
@@ -654,9 +655,6 @@ body {
   padding-top: 2.5rem;
   padding-bottom: 1.875rem;
   border-bottom: 0.125rem solid var(--gray-light);
-}
-.footer__logo {
-  flex-grow: 1;
 }
 .footer__tabs-button {
   color: var(--white);
