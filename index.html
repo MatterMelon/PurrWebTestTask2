@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budss</title>
+    <link rel="stylesheet" href="./landing/fonts.css" />
+    <link rel="stylesheet" href="./landing/style.css" />
+    <link rel="stylesheet" href="./landing/adaptive.css" />
+  </head>
+  <body>
+    <div class="tabs">
+      <div class="container tabs__container">
+        <div class="tabs__content">
+          <button class="tabs__button tabs__button_selected">
+            For Business
+          </button>
+          <button class="tabs__button">For Customers</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <header class="header">
+        <img
+          class="header__logo logo"
+          src="./landing/images/logo.svg"
+          alt="budss logo"
+        />
+        <div class="button-burger header__button-burger">
+          <div class="button-burger__line-container">
+            <div class="button-burger__line"></div>
+            <div class="button-burger__line"></div>
+            <div class="button-burger__line"></div>
+          </div>
+        </div>
+        <button class="button header__button modal-form-open-button">
+          Contact sales
+        </button>
+      </header>
+      <section class="hero">
+        <div class="hero__text-section">
+          <h1 class="hero__header">
+            Everyone <br />
+            is an Influencer
+          </h1>
+          <p class="hero__text">
+            Budss is a payments as a service and WOM engine dedicated to
+            acquisition and retention of customers to your business.
+          </p>
+          <button class="button hero__button modal-form-open-button">
+            Contact sales
+          </button>
+        </div>
+        <picture>
+          <source
+            srcset="
+              ./landing/images/hero-image.webp,
+              ./landing/images/hero-image-2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <img
+            class="hero__image"
+            src="./landing/images/hero-image.png"
+            srcset="./landing/images/hero-image-2x.png 2x"
+            alt="Hero image"
+          />
+        </picture>
+      </section>
+      <section class="about">
+        <h2 class="about__header">About Budss</h2>
+        <div class="about__content">
+          <p class="about__text">
+            Payment as a service, <br />
+            powered seamlessly by <br />
+            our
+            <span class="about__text_highlighted highlighted"
+              >network of shoppers</span
+            >
+          </p>
+          <div class="about__feature-list">
+            <div class="about__feature-item about__contactless">
+              <h3 class="about__feature-header">Contactless</h3>
+              <p class="about__feature-text">
+                Budss uses near field communication (NFC) for making contactless
+                payments.
+              </p>
+            </div>
+            <div class="about__feature-item about__buying-power">
+              <h3 class="about__feature-header">Increased Buying Power</h3>
+              <p class="about__feature-text">
+                Returning customers spend up to 3X more.
+              </p>
+            </div>
+            <div class="about__feature-item about__analytics">
+              <h3 class="about__feature-header">Analytics & Insights</h3>
+              <p class="about__feature-text">
+                Gain a holistic view into your customers’ buying behavior &
+                purchasing patterns.
+              </p>
+            </div>
+            <div class="about__feature-item about__protection">
+              <h3 class="about__feature-header">Fraud Protection</h3>
+              <p class="about__feature-text">
+                Budss handles all payments with a fraud prevention algorithm to
+                flag high risk purchases & a user set PIN code to keep payment
+                info secure.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="how-works">
+        <picture>
+          <source
+            srcset="
+              ./landing/images/phone.webp,
+              ./landing/images/phone-2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <img
+            class="how-works__image"
+            src="./landing/images/phone.png"
+            srcset="./landing/images/phone-2x.png 2x"
+            alt="App presentation"
+          />
+        </picture>
+        <div class="how-works__scroll-container">
+          <div class="how-works__line how-works__first-line">
+            <div class="how-works__line-content scroll-right">
+              <span class="how-works__first-line-word">How Budss Works</span>
+              <span class="how-works__first-line-word">How Budss Works</span>
+            </div>
+            <div class="how-works__line-content scroll-right">
+              <span class="how-works__first-line-word">How Budss Works</span>
+              <span class="how-works__first-line-word">How Budss Works</span>
+            </div>
+          </div>
+          <div class="how-works__line how-works__second-line">
+            <div class="how-works__line-content scroll-left">
+              <span class="how-works__second-line-word">How Budss Works</span>
+              <span class="how-works__second-line-word">How Budss Works</span>
+            </div>
+            <div class="how-works__line-content scroll-left">
+              <span class="how-works__second-line-word">How Budss Works</span>
+              <span class="how-works__second-line-word">How Budss Works</span>
+            </div>
+          </div>
+          <div class="how-works__line how-works__third-line">
+            <div class="how-works__line-content scroll-right">
+              <span class="how-works__third-line-word">How Budss Works</span>
+              <span class="how-works__third-line-word">How Budss Works</span>
+            </div>
+            <div class="how-works__line-content scroll-right">
+              <span class="how-works__third-line-word">How Budss Works</span>
+              <span class="how-works__third-line-word">How Budss Works</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stats__item">
+          <p class="stats__percentage">15%</p>
+          <p class="stats__text">Increase in Purchase Amount</p>
+        </div>
+        <div class="stats__item">
+          <p class="stats__percentage">30%</p>
+          <p class="stats__text">Growth in Annual Sales</p>
+        </div>
+        <div class="stats__item">
+          <p class="stats__percentage">10%</p>
+          <p class="stats__text">Growth in New Customers</p>
+        </div>
+      </div>
+      <section class="why-budds">
+        <h2 class="why-budds__header">Why Budss</h2>
+        <p class="why-budds__text">
+          We Provide Advanced Payment Solutions
+          <span class="why-budds__text-highlighted highlighted"
+            >To Grow Your Business</span
+          >
+        </p>
+        <div class="why-budds__item-list">
+          <div class="why-budds__item why-budds__custumers">
+            <div class="why-budds__custumers-image"></div>
+            <h3 class="why-budds__item-header why-budds__custumers-header">
+              Turn your customers into loyal influencers
+            </h3>
+            <p class="why-budds__item-text why-budds__custumers-text">
+              Budss helps businesses harness the exponential power of loyal
+              customers for acquisition and retention.
+            </p>
+          </div>
+          <div class="why-budds__item why-budds__buying-in-bulk">
+            <div class="why-budds__buying-in-bulk-image1"></div>
+            <div class="why-budds__buying-in-bulk-image2"></div>
+            <div class="why-budds__buying-in-bulk-image3"></div>
+            <h3 class="why-budds__item-header why-budds__buying-in-bulk-header">
+              Harness the power of buying in bulk
+            </h3>
+            <p class="why-budds__item-text why-budds__buying-in-bulk-text">
+              Get at least 2X more sales with Budss Buying Groups. Your customer
+              base will grow exponentially as your customers add their friends &
+              family to your personalized group.
+            </p>
+          </div>
+          <div class="why-budds__item why-budds__cashback">
+            <h3 class="why-budds__item-header why-budds__cashback-header">
+              Supercharge Loyalty With Instant Cash Back
+            </h3>
+            <p class="why-budds__item-text why-budds__cashback-text">
+              Budss allows for shoppers to earn immediate cash back at their
+              favorite stores.
+            </p>
+          </div>
+          <div class="why-budds__item why-budds__gamification">
+            <h3 class="why-budds__item-header why-budds__gamification-header">
+              Seasoned with AI and Gamification
+            </h3>
+            <p class="why-budds__item-text why-budds__gamification-text">
+              AI programming creates a personalized customer journey, offering
+              recommendations for their next purchase and optimizing rewards for
+              after purchase.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="white-bg">
+        <section class="let-business-grow">
+          <div class="let-business-grow__container">
+            <h2 class="let-business-grow__header">Let Your BusinessGrow</h2>
+            <button
+              class="let-business-grow__button button_bg-light button modal-form-open-button"
+            >
+              Contact sales
+            </button>
+          </div>
+        </section>
+        <section class="brand-awareness">
+          <h2 class="brand-awareness__header">Your Brand Awareness Maters</h2>
+          <p class="brand-awareness__text">
+            Budss is a husle free solution to put your brand on any digital
+            surface including Instagram, Facebook, Twitter and TikTok
+          </p>
+        </section>
+        <div class="brand-list">
+          <img
+            class="brand-list__logo"
+            src="./landing/images/logo-woocommerce.svg"
+            alt="Woo Commerce"
+          />
+          <img
+            class="brand-list__logo"
+            src="./landing/images/logo-shopify.svg"
+            alt="Shopify"
+          />
+          <img
+            class="brand-list__logo"
+            src="./landing/images/logo-square.svg"
+            alt="Square"
+          />
+          <img
+            class="brand-list__logo"
+            src="./landing/images/logo-squarespace.svg"
+            alt="Squarespace"
+          />
+          <img
+            class="brand-list__logo"
+            src="./landing/images/logo-clover.svg"
+            alt="Clover"
+          />
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer__main">
+          <img
+            class="footer__logo logo"
+            src="./landing/images/logo.svg"
+            alt="budss logo"
+          />
+          <div class="footer__tabs">
+            <a class="footer__tabs-button" href="">For Business</a>
+            <a class="footer__tabs-button" href="">For Customers</a>
+            <a class="footer__tabs-button footer__tabs-button-mobile" href=""
+              >Privacy Policy</a
+            >
+            <a class="footer__tabs-button footer__tabs-button-mobile" href=""
+              >Terms Of Use - Seller</a
+            >
+            <a class="footer__tabs-button footer__tabs-button-mobile" href=""
+              >Terms of Use - Sellers & Customers</a
+            >
+          </div>
+          <button class="footer__button button modal-form-open-button">
+            Contact sales
+          </button>
+          <div class="footer__download">
+            <a class="footer__download-button" href="">
+              <picture>
+                <source
+                  srcset="
+                    ./landing/images/appstore.webp,
+                    ./landing/images/appstore-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <img
+                  src="./landing/images/appstore.png"
+                  srcset="./landing/images/appstore-2x.png 2x"
+                  alt="Download from Appstore button"
+                />
+              </picture>
+            </a>
+            <a class="footer__download-button" href=""
+              ><picture>
+                <source
+                  srcset="
+                    ./landing/images/googleplay.webp,
+                    ./landing/images/googleplay-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <img
+                  src="./landing/images/googleplay.png"
+                  srcset="./landing/images/googleplay-2x.png 2x"
+                  alt="Download from Google Play button"
+                /> </picture
+            ></a>
+          </div>
+        </div>
+        <div class="footer__lower">
+          <p class="footer__copyright">
+            © Copyright 2023, All Rights Reserved by Budss
+          </p>
+          <div class="footer__breadcrumbs">
+            <a class="footer__breadcrumb-link" href="">Privacy Policy</a>
+            <a class="footer__breadcrumb-link" href="">Terms Of Use - Seller</a>
+            <a class="footer__breadcrumb-link" href=""
+              >Terms of Use - Sellers & Customers</a
+            >
+          </div>
+        </div>
+      </footer>
+      <dialog class="modal thanks-modal">
+        <div class="modal__content thanks-modal__content">
+          <button
+            class="modal__close-button thanks-modal__close-button"
+          ></button>
+          <div class="thanks-modal__image"></div>
+          <h3 class="thanks-modal__header">Thank you!</h3>
+          <p class="thanks-modal__text">
+            Thank you, we have received your application and will contact you
+            soon!
+          </p>
+          <button
+            class="button button--bg-light thanks-modal__button thanks-modal__close-button"
+          >
+            Super!
+          </button>
+        </div>
+      </dialog>
+      <dialog class="modal contact-form-modal">
+        <form class="modal__content" method="dialog">
+          <button
+            class="modal__close-button contact-form-modal__close-button"
+          ></button>
+          <div class="modal__field contact-form-modal__field">
+            <label class="modal__label" for="contact-name-field"
+              >Name
+              <span class="contact-form-modal__required-field">*</span></label
+            >
+            <input
+              class="modal__input contact-form-modal__input"
+              id="contact-name-field"
+              type="text"
+              placeholder="Enter name"
+              autofocus
+              required
+            />
+            <span class="contact-form-modal__error-message"
+              >This field is required.</span
+            >
+          </div>
+          <div class="modal__field contact-form-modal__field">
+            <label class="modal__label" for="contact-email-field"
+              >Email
+              <span class="contact-form-modal__required-field">*</span></label
+            >
+            <input
+              class="modal__input contact-form-modal__input"
+              id="contact-email-field"
+              type="text"
+              placeholder="Enter email"
+              required
+            />
+            <span class="contact-form-modal__error-message"
+              >This field is required.</span
+            >
+          </div>
+          <div
+            class="modal__field contact-form-modal__field contact-form-modal__phone-number-field"
+          >
+            <label class="modal__label" for="contact-phone-field"
+              >Phone number
+              <span class="contact-form-modal__required-field">*</span></label
+            >
+            <input
+              class="modal__input contact-form-modal__input contact-form-modal__phone-number-input"
+              id="contact-phone-field"
+              type="tel"
+              placeholder="+ 7 000 000 00 00"
+              oninput="formatPhoneNumber()"
+              required
+            />
+            <span class="contact-form-modal__error-message"></span>
+          </div>
+          <div class="modal__field contact-form-modal__field">
+            <label class="modal__label" for="contact-company-field"
+              >Company</label
+            >
+            <input
+              class="modal__input contact-form-modal__input"
+              id="contact-company-field"
+              type="text"
+              placeholder="Enter company"
+            />
+          </div>
+          <div class="modal__field contact-form-modal__field">
+            <label class="contact-form-modal__label" for="contact-website-field"
+              >Website/Store URL</label
+            >
+            <input
+              class="modal__input contact-form-modal__input"
+              id="contact-website-field"
+              type="text"
+              placeholder="Enter Website/Store URL"
+            />
+          </div>
+          <p class="contact-form-modal__error-text">
+            Please fill in all required fields
+          </p>
+          <p class="contact-form-modal__text">
+            By submitting this form you are agreeing to Budss’s
+            <a class="contact-form-modal__link" href="">Privacy Policy</a> and
+            <a class="contact-form-modal__link" href="">Terms of Use</a>
+          </p>
+          <button
+            id="contact-form-submit-button"
+            type="submit"
+            class="contact-form-modal__button button_bg-light button"
+            disabled
+          >
+            Contact sales
+          </button>
+        </form>
+      </dialog>
+      <dialog class="modal cookies fade-in-down">
+        <button class="modal__close-button cookies__close-button"></button>
+        <p class="cookies__text">
+          This website uses cookies to ensure you get the best experience on our
+          website. They also allow us to analyze user behavior in order to
+          constantly improve the website for you.
+        </p>
+        <div class="cookies__buttons">
+          <button class="button cookies__button cookies__close-button">
+            Accept
+          </button>
+          <button
+            class="button cookies__button button--secondary cookies__close-button"
+          >
+            Decline
+          </button>
+        </div>
+      </dialog>
+      <div class="burger-menu">
+        <div class="container">
+          <button class="burger-menu__close-button"></button>
+          <button class="button burger-menu__button modal-form-open-button">
+            Contact sales
+          </button>
+          <div class="burger-menu__links">
+            <a class="burger-menu__link" href="">For Business</a>
+            <a class="burger-menu__link" href="">For Customers</a>
+            <a class="burger-menu__link" href="">Privacy Policy</a>
+            <a class="burger-menu__link" href="">Terms Of Use - Seller</a>
+            <a class="burger-menu__link" href=""
+              >Terms of Use - Sellers & Customers</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./landing/modal.js"></script>
+    <script src="./landing/phoneFormatting.js"></script>
+    <script src="./landing/form-validation.js"></script>
+    <script src="./landing/cookies.js"></script>
+    <script src="./landing/menu-burger.js"></script>
+  </body>
+</html>

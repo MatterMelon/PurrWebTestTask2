@@ -1,0 +1,92 @@
+/* WOFF2 */
+
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Outfit Light"),
+    url("./fonts/woff2/OutfitLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Outfit Regular"),
+    url("./fonts/woff2/OutfitRegular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Outfit Medium"),
+    url("./fonts/woff2/OutfitMedium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Outfit SemiBold"),
+    url("./fonts/woff2/OutfitSemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Outfit Bold"),
+    url("./fonts/woff2/OutfitBold.woff2") format("woff2");
+}
+
+/* WOFF */
+
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Outfit Light"),
+    url("./fonts/woff/OutfitLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Outfit Regular"),
+    url("./fonts/woff/OutfitRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Outfit Medium"),
+    url("./fonts/woff/OutfitMedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Outfit SemiBold"),
+    url("./fonts/woff/OutfitSemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Outfit Bold"), url("./fonts/woff/OutfitBold.woff") format("woff");
+}

@@ -1,0 +1,484 @@
+@media (max-width: 1240px) {
+  .about__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .about__feature-list {
+    margin-left: 0;
+    margin-top: 2.5rem;
+  }
+  .about::before {
+    background: none;
+  }
+  .why-budds__header {
+    margin-bottom: 1.25rem;
+  }
+  .why-budds__text {
+    margin: 0;
+  }
+  .why-budds__item-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .why-budds__cashback-header {
+    width: 100%;
+  }
+  .brand-awareness {
+    padding-bottom: 14rem;
+  }
+  .brand-awareness::before {
+    top: auto;
+    bottom: 0;
+    right: 0;
+    transform: none;
+  }
+  .brand-awareness__header {
+    width: 100%;
+    font-size: var(--fs-700);
+  }
+  .brand-awareness__text {
+    font-size: var(--fs-300);
+  }
+  .hero {
+    margin-right: 0;
+    margin-left: 0;
+    flex-direction: column;
+  }
+  .hero__text-section {
+    margin-bottom: 2rem;
+  }
+  .hero__image {
+    align-self: center;
+  }
+  .hero::before {
+    right: -20rem;
+  }
+  .cookies {
+    flex-direction: column;
+  }
+  .cookies__text {
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+  .cookies__buttons {
+    width: 100%;
+    flex-direction: column;
+    margin-right: 0;
+  }
+  .cookies__button {
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .footer__main {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__logo {
+    margin-bottom: 2rem;
+  }
+  .footer__tabs {
+    margin-bottom: 1rem;
+  }
+  .footer__tabs-button {
+    margin-bottom: 1rem;
+  }
+  .footer__button {
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 840px) {
+  .let-business-grow__header {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__header {
+    font-size: 5rem;
+  }
+  .hero__text {
+    width: 100%;
+  }
+  .hero__image {
+    height: 30rem;
+    align-self: center;
+  }
+  .hero::before {
+    background-size: contain;
+    height: 25rem;
+    right: -25rem;
+  }
+  .about__header {
+    font-size: 5rem;
+  }
+  .about__text {
+    font-size: 2rem;
+  }
+  .about__feature-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .stats {
+    flex-direction: column;
+    gap: 2rem;
+    margin-right: 0;
+    transform: translate(0);
+  }
+  .stats__item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .stats__percentage {
+    margin-right: 2rem;
+  }
+  .stats__text {
+    font-size: 2rem;
+  }
+  .why-budds__header {
+    font-size: 3rem;
+  }
+  .why-budds__text {
+    font-size: 1.8rem;
+  }
+  .why-budds__item-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .why-budds__custumers {
+    padding-bottom: 10rem;
+    padding-left: 2.5rem;
+  }
+  .why-budds__custumers::after {
+    width: 50%;
+    height: 50%;
+    left: -10%;
+    background-size: cover;
+  }
+  .why-budds__custumers-image {
+    left: 0%;
+    bottom: -30%;
+    width: 12.5rem;
+    height: 16.875rem;
+    background-size: cover;
+  }
+  .why-budds__cashback {
+    padding-bottom: 6rem;
+  }
+  .why-budds__cashback-header {
+    width: 100%;
+  }
+  .why-budds__gamification {
+    padding-right: 2.5rem;
+    padding-bottom: 10rem;
+  }
+  .why-budds__gamification-header {
+    width: 100%;
+  }
+  .why-budds__gamification-text {
+    width: 100%;
+  }
+  .why-budds__gamification::before {
+    right: -2.5rem;
+    top: auto;
+    bottom: -10rem;
+  }
+}
+@media (max-width: 610px) {
+  .container {
+    padding: 0 2rem;
+  }
+  .header__button {
+    display: none;
+  }
+  .header__button-burger {
+    display: grid;
+  }
+  .hero__header {
+    width: 100%;
+    font-size: 5rem;
+  }
+  .hero__image {
+    height: 20rem;
+    align-self: center;
+  }
+  .hero::before {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 18rem;
+    right: -30rem;
+  }
+  .why-budds__item-header {
+    font-size: 2.5rem;
+  }
+  .why-budds__item-text {
+    font-size: 1rem;
+  }
+
+  .let-business-grow {
+    padding: 40px 0;
+  }
+  .let-business-grow__header {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .let-business-grow__button {
+    width: 90%;
+  }
+  .footer__main {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__logo {
+    margin-bottom: 2rem;
+  }
+  .footer__tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .footer__tabs-button {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+  .footer__tabs-button:nth-child(2n) {
+    margin-left: 0;
+  }
+  .footer__button {
+    margin-bottom: 1rem;
+  }
+  .footer__download {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__download-button {
+    margin-bottom: 1rem;
+    margin-left: 0;
+  }
+  .footer__download-button:last-child {
+    margin-left: 0;
+  }
+  .contact-form-modal__button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .hero__header {
+    font-size: 3rem;
+  }
+  .hero__text {
+    font-size: 1.2rem;
+  }
+  .hero__button {
+    width: 100%;
+  }
+  .hero::before {
+    right: -34rem;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    padding: 0 1rem;
+  }
+  .tabs__container {
+    padding: 0;
+  }
+  .header__logo {
+    width: 7.75rem;
+    height: 2.4375rem;
+  }
+  .hero__text-section {
+    margin-bottom: 7.75rem;
+  }
+  .hero__header {
+    font-size: 2.5rem;
+  }
+  .hero__text {
+    font-size: 1rem;
+  }
+  .hero__image {
+    width: 17rem;
+    height: 17rem;
+  }
+  .hero::before {
+    right: -38rem;
+    height: 14rem;
+  }
+  .about__header {
+    font-size: 2.5rem;
+    margin-bottom: 1.875rem;
+  }
+  .about__text {
+    font-size: var(--fs-400);
+  }
+  .about__feature-header {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .about__feature-text {
+    font-size: var(--fs-200);
+    line-height: 120%;
+  }
+  .how-works__scroll-container {
+    gap: 1rem;
+  }
+  .how-works__image {
+    width: 14.25rem;
+  }
+  .how-works__line-content {
+    font-size: var(--fs-600);
+  }
+  .stats {
+    gap: 2.5rem;
+  }
+  .stats__percentage {
+    font-size: 2.5rem;
+    margin-right: 1.25rem;
+  }
+  .stats__text {
+    font-size: 1.25rem;
+    line-height: auto;
+  }
+  .why-budds__header {
+    font-size: 2.5rem;
+  }
+  .why-budds__text {
+    font-size: 1.5rem;
+  }
+  .why-budds__item {
+    padding: 1.25rem;
+  }
+  .why-budds__item-header {
+    font-size: 2rem;
+    line-height: 106%;
+  }
+  .why-budds__item-text {
+    font-size: 1rem;
+    line-height: auto;
+  }
+  .why-budds__custumers::before {
+    transform: none;
+    bottom: 35%;
+    left: 50%;
+    height: 2.5rem;
+    background-size: contain;
+  }
+  .why-budds__custumers::after {
+    width: 70%;
+    height: 70%;
+    left: -20%;
+    bottom: -20%;
+  }
+  .why-budds__custumers-image {
+    width: 13.25rem;
+    height: 15.5625rem;
+    background-size: contain;
+    left: 13%;
+    bottom: -16%;
+    transform: rotate(-15deg);
+  }
+  .why-budds__custumers {
+    padding-bottom: 12.375rem;
+  }
+  .why-budds__buying-in-bulk {
+    padding-bottom: 8.0625rem;
+  }
+  .why-budds__buying-in-bulk-image1 {
+    width: 5.3125rem;
+    height: 7.3125rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 10%;
+    right: -7%;
+  }
+  .why-budds__buying-in-bulk-image2 {
+    right: 30%;
+  }
+  .why-budds__buying-in-bulk-image3 {
+    left: 5%;
+    bottom: -18%;
+  }
+  .why-budds__cashback {
+    padding-bottom: 7.1875rem;
+  }
+  .why-budds__gamification {
+    padding-bottom: 11.9375rem;
+  }
+  .brand-awareness {
+    padding-bottom: 9.3125rem;
+  }
+  .brand-awareness::before {
+    width: 100%;
+    height: 8.0625rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 0;
+  }
+  .brand-awareness__header {
+    font-size: 2.5rem;
+  }
+  .brand-awareness__text {
+    font-size: 1.25rem;
+  }
+  .brand-list__logo {
+    width: 40%;
+  }
+  .footer__main {
+    align-items: flex-start;
+    margin-bottom: 0.625rem;
+  }
+  .footer__logo {
+    width: 7.75rem;
+    height: 2.4375rem;
+    margin-bottom: 2.5rem;
+  }
+  .footer__tabs {
+    align-items: flex-start;
+  }
+  .footer__tabs-button {
+    font-size: 1.25rem;
+  }
+  .footer__button {
+    margin-bottom: 2.5rem;
+  }
+  .footer__lower {
+    padding: 0;
+  }
+  .footer__breadcrumbs {
+    display: none;
+  }
+  .footer__tabs-button-mobile {
+    display: block;
+  }
+  .modal {
+    width: 20.9375rem;
+    padding: 1rem;
+  }
+  .contact-form-modal__button {
+    width: 100%;
+  }
+  .thanks-modal__image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-self: center;
+    width: 14.3125rem;
+    height: 11.1875rem;
+  }
+  .thanks-modal__header {
+    font-size: var(--fs-400);
+  }
+  .thanks-modal__text {
+    font-size: var(--fs-300);
+  }
+  .cookies {
+    width: 20.9375rem;
+    width: 100%;
+    padding: 1.875rem 1.25rem;
+  }
+}
